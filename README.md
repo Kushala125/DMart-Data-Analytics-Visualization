@@ -22,31 +22,33 @@ A. Core Feature Engineering
 We calculated "Savings Efficiency" and "Unit Value" to quantify the customer’s psychological perception of a deal.
 
 ## Python
-# 1. Price per 100g (The True Equalizer)
-df["price_per_100g"] = (df["discountedprice"] / df["quantity_grams"]) * 100
+## Which products deliver the highest customer value when considering both price and savings, and which products are potentially overpriced due to low value contribution?
+![Chart 1](images/chart1.png)
 
-# 2. Value Score (Savings Efficiency)
-df["value_score"] = df["savings"] / df["price"]
+Product value is not driven by price alone, but by how effectively pricing translates into meaningful customer savings. Products that combine affordability with strong discounts consistently deliver higher value, while high-priced products without proportional savings tend to underperform. This highlights the need for optimized pricing and discount strategies that focus on value creation rather than price positioning alone.
 
-# 3. The Custom "Deal Score"
-# Weighted logic: Discount Depth (50%) + Value Score (30%) + Relative Pricing (20%)
-df["deal_score"] = (
-    (df["discount_percentage"] * 0.5) +
-    (df["value_score"] * 100 * 0.3) +
-    ((1 / df["relative_price_index"]) * 10 * 0.2)
-)
-B. Behavioral Simulation (Mixpanel Integration)
-To validate our scores, we integrated a tracking simulation to model how "High Deal Score" products correlate with user behavior (Views → Add to Cart → Purchase).
+##  What factors drive product value when analyzing the combined impact of price, discount percentage, and overall deal attractiveness in a multi-dimensional (3D) analytical space?
 
-Python
-from mixpanel import Mixpanel
-mp = Mixpanel("PROJECT_TOKEN")
+![Chart 2](images/chart1.png)
 
-for i in range(200):
-    user = f"user_{i}"
-    mp.track(user, "product_viewed")
-    if random.random() > 0.5:
-        mp.track(user, "add_to_cart")
+Product value is not determined by price alone, but by the dynamic interaction between price and discount. The highest-value products emerge within an optimal range where moderate pricing is complemented by strong discounting. This indicates that value is maximized when affordability aligns with meaningful savings, emphasizing the importance of balanced and strategic pricing models.
+
+## Which factors have the strongest influence on product value, and how do pricing and discount dynamics interact to shape customer value perception?
+![Chart 5](images/chart1.png)
+
+“The analysis reveals that product value is predominantly driven by discount percentage, with deal score acting as a supporting factor, while price itself plays a minimal direct role. Higher unit costs further reduce perceived value, reinforcing that customers prioritize savings efficiency over absolute price levels. This highlights that effective value creation depends on optimizing discount strategies and cost efficiency rather than simply adjusting prices.”
+
+##  Which categories and brands contribute most significantly to overall product value, and how is this value distributed across the product hierarchy?
+
+![Chart 5](images/chart1.png)
+
+“The analysis highlights that overall product value is highly concentrated within essential categories such as Grocery, Dairy & Beverages, and Home & Kitchen, where a small group of dominant brands contributes the majority of value. This skewed distribution demonstrates that value creation is not evenly spread across the product hierarchy, but is driven by high-impact categories and brands that optimize both pricing and discount strategies. It underscores the importance of focusing on key segments to maximize overall business value.”
+## How do key factors such as price, discount percentage, value score, and deal score interact to influence overall product value?
+
+![Chart 5](images/chart1.png)
+
+Product value is determined by the combined interaction of multiple factors, with discount percentage emerging as the primary driver. Deal score further strengthens value perception, while price plays a secondary, supporting role. Products achieve the highest value when moderate pricing is complemented by strong discounts and attractive deal scores. In contrast, low discount levels result in poor value perception regardless of price, highlighting the critical role of effective discount strategies.
+
 ## 📊 4. Data-Driven Insights
 Our analysis yielded high-impact findings that challenge traditional retail assumptions:
 
