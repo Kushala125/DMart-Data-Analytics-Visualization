@@ -29,18 +29,18 @@ Product value is not driven by price alone, but by how effectively pricing trans
 
 ##  What factors drive product value when analyzing the combined impact of price, discount percentage, and overall deal attractiveness in a multi-dimensional (3D) analytical space?
 
-![Chart 2](images/chart1.png)
+![Chart 2](images/chart2.png)
 
 Product value is not determined by price alone, but by the dynamic interaction between price and discount. The highest-value products emerge within an optimal range where moderate pricing is complemented by strong discounting. This indicates that value is maximized when affordability aligns with meaningful savings, emphasizing the importance of balanced and strategic pricing models.
 
 ## Which factors have the strongest influence on product value, and how do pricing and discount dynamics interact to shape customer value perception?
-![Chart 5](images/chart1.png)
+![Chart 5](images/chart5.png)
 
 “The analysis reveals that product value is predominantly driven by discount percentage, with deal score acting as a supporting factor, while price itself plays a minimal direct role. Higher unit costs further reduce perceived value, reinforcing that customers prioritize savings efficiency over absolute price levels. This highlights that effective value creation depends on optimizing discount strategies and cost efficiency rather than simply adjusting prices.”
 
 ##  Which categories and brands contribute most significantly to overall product value, and how is this value distributed across the product hierarchy?
 
-![Chart 5](images/chart1.png)
+![Chart 6](images/chart6.png)
 
 “The analysis highlights that overall product value is highly concentrated within essential categories such as Grocery, Dairy & Beverages, and Home & Kitchen, where a small group of dominant brands contributes the majority of value. This skewed distribution demonstrates that value creation is not evenly spread across the product hierarchy, but is driven by high-impact categories and brands that optimize both pricing and discount strategies. It underscores the importance of focusing on key segments to maximize overall business value.”
 ## How do key factors such as price, discount percentage, value score, and deal score interact to influence overall product value?
