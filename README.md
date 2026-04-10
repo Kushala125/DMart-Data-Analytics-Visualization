@@ -43,11 +43,38 @@ Product value is not determined by price alone, but by the dynamic interaction b
 ![Chart 6](images/chart6.png)
 
 “The analysis highlights that overall product value is highly concentrated within essential categories such as Grocery, Dairy & Beverages, and Home & Kitchen, where a small group of dominant brands contributes the majority of value. This skewed distribution demonstrates that value creation is not evenly spread across the product hierarchy, but is driven by high-impact categories and brands that optimize both pricing and discount strategies. It underscores the importance of focusing on key segments to maximize overall business value.”
-## How do key factors such as price, discount percentage, value score, and deal score interact to influence overall product value?
+## How do multiple features such as price, discount percentage, value score, and deal score interact to determine overall product value?”
+![Chart 9](images/chart9.png)
 
-![Chart 5](images/chart1.png)
+Product value is driven by the combined interaction of multiple factors, with discount percentage acting as the primary driver. Deal score further enhances value perception, while price plays a secondary role. High-value products typically emerge when moderate pricing is paired with strong discounts and attractive deal scores. In contrast, low discount levels result in poor value perception, regardless of the product’s price.
+## Which product categories demonstrate the highest value retention, and what key characteristics make them strong drivers of customer loyalty?
+![Chart 11](images/chart11.png)
 
-Product value is determined by the combined interaction of multiple factors, with discount percentage emerging as the primary driver. Deal score further strengthens value perception, while price plays a secondary, supporting role. Products achieve the highest value when moderate pricing is complemented by strong discounts and attractive deal scores. In contrast, low discount levels result in poor value perception regardless of price, highlighting the critical role of effective discount strategies.
+Product categories such as Grocery, Dairy & Beverages, and select Electronics segments exhibit the highest value retention. This is primarily driven by consistent pricing, reliable value delivery, and high purchase frequency. These categories naturally foster repeat buying behavior, making them strong drivers of customer loyalty. In contrast, non-essential categories tend to show lower retention due to less frequent purchases and inconsistent value delivery. 
+## Which product categories demonstrate the strongest value retention based on the proportion of products in the ‘Very High’ retention segment?
+![Chart 13](images/chart13.png)
+
+“The analysis indicates that Electronics and Accessories categories, including brands like Zebronics and computer accessories, achieve the highest value retention, as reflected by their strong presence in the ‘Very High’ retention segment. This suggests that these categories consistently deliver superior value through optimized pricing and discount strategies. While essential categories maintain moderate retention due to stable demand, niche categories lag behind due to inconsistent value delivery, highlighting the importance of sustained value creation for long-term retention.”
+## How do different product categories perform in terms of retention, and what key patterns emerge across retention segments?
+![Chart 14](images/chart14.png)
+
+Retention patterns vary significantly across product categories. Electronics and accessories demonstrate the highest retention levels due to consistent value delivery and strong deal attractiveness. Essential categories such as grocery and dairy show moderate retention, driven by frequent usage but relatively stable value. In contrast, niche and non-essential categories underperform, as they lack consistent value delivery and are purchased less frequently, leading to lower retention.
+## How does the distribution of retention segments (Low, Medium, High) vary across different product categories?
+
+![Chart 14](images/chart14.png)
+Retention distribution differs significantly across product categories. High-performing categories tend to be concentrated in the higher retention segments (High and Very High), indicating consistent value delivery and strong customer engagement. In contrast, lower-performing categories are primarily clustered in the Low retention segment, reflecting weaker value perception and inconsistent purchase behavior. This variation underscores the importance of adopting category-specific pricing and value strategies to improve retention outcomes. 
+## At which stage in the product value funnel do products experience the greatest drop in value, and what does this reveal about pricing effectiveness?
+![Chart 17](images/chart17.png)
+
+“The funnel analysis reveals that the largest value drop occurs between the Discounted and High Value stages, where nearly 75% of products fail to convert discounts into meaningful value. Despite widespread discounting, only a small proportion of products deliver strong value, highlighting inefficiencies in current pricing strategies. This suggests that discounts alone are insufficient and must be better aligned with pricing and perceived savings to effectively drive value.”
+## How do products progress through different stages of the value funnel, and where do inefficiencies occur?
+![Chart 18](images/chart18.png)
+
+Products that successfully reach the high-value stage tend to progress efficiently through the later stages of the funnel, including deal attractiveness and retention. However, a major bottleneck exists early in the funnel, where a large proportion of discounted products fail to convert into high-value offerings. This highlights a key inefficiency in pricing and discount strategies, where discounts are not effectively translating into meaningful customer value.
+## What insights do the key KPIs and combined dashboard provide about overall product performance, value creation, and retention?
+![Chart 19](images/chart19.png)
+
+The combined dashboard reveals that while a vast majority of products are discounted, only a limited proportion successfully translate these discounts into high customer value, and an even smaller subset achieves strong retention. The primary bottleneck lies in the conversion of discounts into meaningful value, with performance varying significantly across categories. This indicates that current pricing and discount strategies are not effectively aligned with customer value perception.
 
 ## 📊 4. Data-Driven Insights
 Our analysis yielded high-impact findings that challenge traditional retail assumptions:
