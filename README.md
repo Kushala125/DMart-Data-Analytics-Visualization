@@ -93,6 +93,20 @@ III. The Power of Organic Staples
 Data shows that 24 Mantra Organic products (Atta, Brown Rice, Sugar) consistently score the highest on the Deal Index (>400), serving as the "Anchor Products" for the entire DMart ecosystem.
 
 ## 📈 5. Visual Dashboard Summary- Excel
+![Dashboard](images/dash.png)
+
+Modular Data Architecture: The project uses a structured 4-layer system (Source Data, Lookup Tables, Pivot Engines, and Dashboard) to ensure the large dataset of 5,000+ products remains organized and easy to update.
+
+Advanced Formula Engineering: It utilizes high-level Excel functions like XLOOKUP, INDEX-MATCH, and nested IFS to automate the calculation of complex metrics such as Price Categories, Value Scores, and Deal Scores.
+
+The "Value Funnel" Discovery: The dashboard identifies a major strategic bottleneck: while 99.8% of products are discounted, only 25% qualify as "High Value." This reveals a 75% efficiency gap where discounts aren't translating into true customer value.
+
+Category Performance Benchmarking: Through automated Pivot Tables, the Excel hub ranks categories by cost, identifying Jams & Spreads as high-margin items (~₹150 avg) and Spices as low-cost traffic drivers (~₹75 avg).
+
+KPI Tracking: The dashboard provides an instant executive snapshot of store health, displaying critical metrics like Total Consumer Savings (₹556,940) and a Global Average Discount of 26.38%.
+
+Interactive Decision Support: By integrating Slicers and Dynamic Charts, the tool allows managers to filter by brand or category, turning a flat spreadsheet into a "no-code" diagnostic tool for real-time retail auditing
+
 The project culminated in a KPI dashboard reflecting the following health metrics:
 
 Total Consumer Savings: ₹556,940.01
